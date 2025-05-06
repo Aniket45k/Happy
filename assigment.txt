@@ -1,0 +1,189 @@
+Sure! Here's the updated version with each answer in 4 simple lines:
+
+1. Basics of Machine Learning
+
+
+1. What is Linear Regression?
+It draws the best straight line through data.
+Used to predict numbers like sales or prices.
+It finds the relationship between variables.
+Good for simple prediction problems.
+
+2. What is a Deep Neural Network?
+A model with many connected layers.
+Each layer learns different features.
+Used for images, speech, and text.
+Learns complex patterns in data.
+
+3. What is the concept of Standardization?
+It changes data to a standard scale.
+Mean becomes 0, standard deviation is 1.
+Helps model learn faster and better.
+Often used before training models.
+
+4. Why split data into train and test?
+Training data builds the model.
+Testing data checks model accuracy.
+Prevents overfitting to training data.
+Helps test model on unseen cases.
+
+5. Application of Deep Neural Network
+Used in face and speech recognition.
+Powers self-driving and recommendation systems.
+Used in healthcare and fraud detection.
+Helps in translating languages too.
+
+2. Classification Concepts
+
+
+
+
+1. What is Binary Classification?
+It classifies data into two groups.
+Examples: true/false, yes/no, spam/not spam.
+Used in medical, email, and finance.
+Only two outputs are possible.
+
+2. What is Binary Cross Entropy?
+It measures how wrong predictions are.
+Used in binary classification tasks.
+Lower value means better model.
+Helps improve model accuracy.
+
+3. What is Validation Split?
+A portion of training data is set aside.
+Used to check model during training.
+Helps tune parameters like learning rate.
+Prevents overfitting to training data.
+
+4. What is the Epoch Cycle?
+One complete pass through training data.
+More epochs can improve learning.
+Too many may cause overfitting.
+Used in deep learning training.
+
+5. What is Adam Optimizer?
+An optimizer to adjust model weights.
+It combines features of other optimizers.
+Works well on most deep models.
+Helps train faster and better.
+
+3. Neural Network Functions
+1. What is Batch Size?
+Number of samples processed at once.
+Used during model training.
+Smaller batch = more updates.
+Affects speed and memory use.
+
+2. What is Dropout?
+It randomly turns off neurons during training.
+Helps prevent overfitting.
+Makes model more general.
+Common in deep learning models.
+
+3. What is RMSprop?
+An optimizer that adjusts learning rate.
+Remembers recent changes in weights.
+Used in recurrent networks and deep learning.
+Improves training stability.
+
+4. What is the Softmax Function?
+Converts numbers into probabilities.
+All outputs add up to 1.
+Used in multi-class classification.
+Chooses the class with highest score.
+
+5. What is the ReLU Function?
+ReLU stands for Rectified Linear Unit.
+Keeps positive values, sets negatives to zero.
+Speeds up training of deep networks.
+Common in hidden layers.
+
+4. Data Understanding & CNN
+
+
+
+1. What is Exploratory Analysis?
+It’s the first step to study data.
+Involves visualizing and summarizing data.
+Helps find patterns, trends, and errors.
+Guides further data processing.
+
+2. What is Correlation Matrix?
+Shows how features relate to each other.
+Values from -1 to +1.
+High value means strong relationship.
+Helps in selecting useful features.
+
+3. What is Conv2D used for?
+Used in CNNs to process images.
+Finds patterns like edges or textures.
+Applies filters over image pixels.
+Used for feature extraction in vision.
+
+5. MNIST Dataset
+1. What is MNIST dataset for classification?
+Contains 70,000 images of handwritten digits.
+Each image is 28x28 pixels.
+Used to train models to recognize numbers.
+Popular for beginner deep learning tasks.
+
+2. How many classes are in MNIST dataset?
+It has 10 classes from 0 to 9.
+Each image is labeled with a digit.
+Used for multi-class classification.
+Every digit is one unique class.
+
+3. What is 784 in MNIST dataset?
+Each image is 28×28 = 784 pixels.
+Flattened into a 1D array.
+Each pixel is a feature.
+Input size for models is 784.
+
+4. How many epochs are there in MNIST?
+Depends on the training setup.
+Common values: 5 to 20 epochs.
+More epochs help learning.
+But too many can overfit.
+
+5. What are the hardest digits in MNIST?
+Digits like 5 and 8 can be hard.
+They often look similar to 3 or 9.
+Bad handwriting makes it harder.
+Causes more classification mistakes.
+
+6. What is CNN?
+CNN stands for Convolutional Neural Network.
+Used for image and video tasks.
+Finds patterns like shapes and edges.
+Great for computer vision problems.
+
+Let me know if you want this in PDF or image format!
+
+
+
+
+
+
+
+You said:
+What is model weights
+What under fitting and over fitting 
+
+What are Model Weights?
+Model weights are numbers the model learns.
+They decide how much each input matters.
+Weights are updated during training.
+They help make accurate predictions.
+
+What is Underfitting?
+Underfitting happens when a model is too simple.
+It can't learn patterns from training data well.
+Both training and test errors are high.
+The model needs more complexity or features.
+
+What is Overfitting?
+Overfitting happens when a model learns too much.
+It memorizes training data, even noise.
+Training error is low, but test error is high.
+The model doesn’t perform well on new data.
